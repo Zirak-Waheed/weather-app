@@ -16,9 +16,9 @@ weatherForm.addEventListener('submit', (e) => {
         weatherMessage.textContent = ''
       } else
       {
-        errorMessage.textContent = 'Pehle Paise do. Har cheez muft me ni milti. For more queries contact me at 03314218631'
-      //   locationDetail.textContent = data.location
-      //   weatherMessage.textContent = "it is " + data.temperature + " degree  outside, And feels like "+ data.feelslike
+        errorMessage.textContent = ''
+        locationDetail.textContent = data.location
+        weatherMessage.textContent = "it is " + data.temperature + " degree  outside, And feels like "+ data.feelslike
       }
     })
   })
